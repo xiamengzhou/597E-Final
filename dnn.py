@@ -1,6 +1,5 @@
 import torch
 
-
 class Model(torch.nn.Module):
     def __init__(self):
         super().__init__()
@@ -20,8 +19,8 @@ class Model(torch.nn.Module):
 
 
 
-def load_model():
-	model = torch.load("models/dnn.pytorch")
-	return model
 
-model = load_model()
+
+
+
+
