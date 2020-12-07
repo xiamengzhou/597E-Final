@@ -1,5 +1,8 @@
 # 597E-Final
 
+## reproducing the final report
+- Section ??: `misclassified-samples-analysis.ipynb` (use with `misclassified_samples_analysis.tar.gz`)
+
 ## models
 `dnn.model`: final neural network model from R <br /> <br />
 `final_lr.model`: final logistic regression model from R <br /> <br />
