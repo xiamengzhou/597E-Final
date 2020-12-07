@@ -39,10 +39,8 @@ def load_pytorch_model(model):
     return model
 
 def get_columns():
-    f = open("data/impute_x_test.csv", "r")
-    columns = f.readline()
-    f.close()
-    columns = columns.strip().split(",")
+    data = pd.read_csv("data/impute_x_test.csv", "r")
+    columns = data.columns
     return columns
 
 

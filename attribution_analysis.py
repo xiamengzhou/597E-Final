@@ -4,6 +4,8 @@ from torch.utils.data import (DataLoader)
 from captum.attr import IntegratedGradients
 import sys
 import tqdm
+from lr import LRModel
+from dnn import Model
 
 model_name = sys.argv[1] # dnn, lr
 split = sys.argv[2] # train, test
