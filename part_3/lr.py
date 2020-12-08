@@ -11,8 +11,4 @@ class LRModel(torch.nn.Module):
         return out
 
 
-def save_lr_model():
-    model = LRModel()
 
-#     load_lr_model(model)
-#     save_model(model, "lr.pytorch")
