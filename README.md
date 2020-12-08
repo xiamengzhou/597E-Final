@@ -1,6 +1,8 @@
 # 597E-Final: Hospital Admission at Emergency Department Triage Using Machine Learning
 
-## reproducing the final report
+This repository provides the code for our final project for the Fall 2020 COS597E/SOC555 Limits to Prediction seminar at Princeton University. 
+
+## Reproducing our report
 - Section 4.1 Do misclassified samples have something in common?: <br />
   (Python) `part1/misclassified-samples-analysis.ipynb` (use with `misclassified_samples_analysis.tar.gz`) <br /> <br />
 - Section 4.2: How sensitive is each classifier to data perturbations? <br />
@@ -12,7 +14,7 @@
 Please find large files in [Google Driver](https://drive.google.com/drive/folders/1mr3X5v_qCOysY83YUcR_vS25g3y-TI9U?usp=sharing) for reproducing the results.
 
 
-## models
+## Models
 `dnn.model`: final neural network model from R <br /> <br />
 `final_lr.model`: final logistic regression model from R <br /> <br />
 `dnn.pkl`: weights of final neural network model <br /> <br />
