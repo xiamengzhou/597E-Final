@@ -11,7 +11,9 @@ library(keras)
 registerDoMC(5) # For parallelization
 
 
-### Load train and test data
+### Load processed data
+# 5v_sparseMatrix.RData and 5v_indeces_list.RData can be found in sensitivity_analysis.zip
+# We got them by running the original authors' build_boost.R script.
 load('./Results/5v_sparseMatrix.RData')
 load('./Results/5v_indeces_list.RData')
 indeces <- indeces_list[[1]]
