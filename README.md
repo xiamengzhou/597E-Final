@@ -1,4 +1,4 @@
-# 597E-Final
+# 597E-Final: HOSPITAL ADMISSION AT EMERGENCYDEPARTMENT TRIAGE USING MACHINE LEARNING
 
 ## reproducing the final report
 - Section 4.1 Do misclassified samples have something in common?: <br />
