@@ -10,7 +10,7 @@ This repository provides the code for our final project for the Fall 2020 COS597
 - Section 4.3: How can we interpret the decisions of each classifier? <br />
   (Python) `part3/attribution_analysis.py ${split} ${model} ${outfile}` <br /> <br />
 - Section 4.4: Are the trained classifiers generalizable to hospitals not represented in the training data? <br />
-  (Python) `part4/Predicting Individual Hospital Outcomes.ipynb` <br /> <br />
+  (Python) `part4/cross_hospital_generalization_analysis.ipynb` (use with `x_train.csv` and `y_train.csv`) <br /> <br />
 Please find the large files in the [Google Driver](https://drive.google.com/drive/folders/1mr3X5v_qCOysY83YUcR_vS25g3y-TI9U?usp=sharing). The code and data for the original paper (Hong et al. 2018) can be found at https://github.com/yaleemmlc/admissionprediction.
 
 
