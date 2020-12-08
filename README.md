@@ -1,13 +1,13 @@
 # 597E-Final
 
 ## reproducing the final report
-- Section 4.1 Do misclassified samples have something in common?: 
+- Section 4.1 Do misclassified samples have something in common?: <br />
   (Python) `part1/misclassified-samples-analysis.ipynb` (use with `misclassified_samples_analysis.tar.gz`) <br /> <br />
-- Section 4.2: How sensitive is each classifier to data perturbations?
+- Section 4.2: How sensitive is each classifier to data perturbations? <br />
   (R) `part2/sensitivityanalysis_dnn.R`, `part2/sensitivityanalysis_lr.R` and `part2/sensitivityanalysis_xgboost.R` <br /> <br />
-- Section 4.3: How can we interpret the decisions of each classifier?
+- Section 4.3: How can we interpret the decisions of each classifier? <br />
   (Python) `part3/attribution_analysis.py ${split} ${model}` <br /> <br />
-- Section 4.4: Are the trained classifiers generalizable to hospitals not represented in the training data?
+- Section 4.4: Are the trained classifiers generalizable to hospitals not represented in the training data? <br />
   (Python) `part4/Predicting Individual Hospital Outcomes.ipynb` <br /> <br />
 Please find large files in [Google Driver](https://drive.google.com/drive/folders/1mr3X5v_qCOysY83YUcR_vS25g3y-TI9U?usp=sharing) for reproduce.
 
