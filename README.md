@@ -4,7 +4,7 @@
 - Section 4.1 Do misclassified samples have something in common?: <br />
   (Python) `part1/misclassified-samples-analysis.ipynb` (use with `misclassified_samples_analysis.tar.gz`) <br /> <br />
 - Section 4.2: How sensitive is each classifier to data perturbations? <br />
-  (R) `part2/sensitivityanalysis_dnn.R`, `part2/sensitivityanalysis_lr.R` and `part2/sensitivityanalysis_xgboost.R` (use with sensitivity_analysis.zip) <br /> <br />
+  (R) `part2/sensitivityanalysis_dnn.R`, `part2/sensitivityanalysis_lr.R` and `part2/sensitivityanalysis_xgboost.R` (use with `sensitivity_analysis.zip`) <br /> <br />
 - Section 4.3: How can we interpret the decisions of each classifier? <br />
   (Python) `part3/attribution_analysis.py ${split} ${model} ${outfile}` <br /> <br />
 - Section 4.4: Are the trained classifiers generalizable to hospitals not represented in the training data? <br />
